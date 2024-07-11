@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+.b_h{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+}
+.p_discription{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+}
+.p_discription_w{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+.center{
+    text-align: center;
+}
+/* button */
+.b_prymary{
+text-decoration: none;
+color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+border-radius: 8px;
+background: rgb(13, 19, 33);
+padding: 21px 24px 21px 24px;
+}
+.b_prymary:hover{
+    color: rgb(13, 19, 33);
+    background-color:transparent;
+    transition: all 1s ease-out;
+    border: 2px solid;
+}
+.w_d_b{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    text-decoration: none;
+    padding: 12px 20px 12px 20px;
+}
+.c_t_b{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    border-bottom: 2px solid;
+    text-decoration: none;
+}
+
+/* end button section */
+.h2_32{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+}
+.h2_32_w{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+}
+.h3_24{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+}
+.h3_24_800{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+
+.m_t_20{
+    margin-top: 20px;
+}
+.m_b_30{
+    margin-bottom: 30px;
+}
+
+
+
+
+
+/* header banar */
+.banar{
+    width: 1440px;
+    height: 652px;
+    margin: 60px auto 0;
+    background-image: url('../assets/Hero-bg.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+.banar_box{
+    width: 998px;
+    height: 582px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
