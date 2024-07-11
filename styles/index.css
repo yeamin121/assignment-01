@@ -117,6 +117,17 @@ padding: 21px 24px 21px 24px;
     justify-content: space-between;
     align-items: center;
 }
+/* section why web developer */
+.developer{
+    width: 1140px;
+    height: 1395px;
+    margin: 70px auto 0;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .developer_box{
     width: 946px;
     height: 1235px;
