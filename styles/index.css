@@ -337,4 +337,27 @@ padding: 21px 24px 21px 24px;
     font-size: 20px;
     font-weight: 600;
 }
+/* footer section */
+.footer{
+    width: 1440px;
+    height: 100px;
+    margin: 70px auto 0;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_box{
+    width: 1140px;
+    height: 36px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.victor>a{
+    margin-left: 24px;
+}
+
 
