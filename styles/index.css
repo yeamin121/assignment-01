@@ -117,3 +117,77 @@ padding: 21px 24px 21px 24px;
     justify-content: space-between;
     align-items: center;
 }
+.developer_box{
+    width: 946px;
+    height: 1235px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.developer_text{
+    width: 852px;
+    height: 115px;
+    text-align: center;
+}
+.developer_content{
+    width: 100%;
+    height: 1072px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 30px;
+
+}
+.developer_content>div{
+    width: 946px;
+    height: 336px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    padding: 10px 30px;
+}
+.developer_content_box1{
+    background-color: rgb(255, 222, 178);
+}
+.developer_content_box2{
+    background-color: #c3e3ff;
+}
+.developer_content_box3{
+    background-color: rgb(255, 222, 178);
+}
+
+/* My inspiration */
+.inspiration{
+    margin: 70px auto 0;
+    width: 1140px;
+    height: 777px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.inspiration_text{
+    width: 852px;
+    height: 115px;
+    margin: auto;
+}
+.inspiration_video{
+    width: 1138px;
+    height: 612px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inspiration_video>iframe{
+    border-radius: 16px;
+    border: 1px solid rgb(255, 0, 255);
+    box-shadow: 0px 0px 10px rgb(174, 44, 255);
+    outline: red solid 1px;
+    outline-offset: 1px;
+}
